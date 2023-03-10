@@ -1,0 +1,312 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Serif', serif;
+}
+
+@media (min-width: 300px) and (max-width: 799px){
+
+    /* _______________________________________ HEADER _______________________________________ */
+
+    header{
+        width: 100%;
+        height: 100px;
+        background-color: black;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+    }
+
+    .perfil{
+        display: flex;
+    }
+    
+    .perfil i{
+        font-size: 50px;
+        color: white;
+    }
+    
+    .icon-perfil{
+        text-align: center;
+    }
+    
+    .icon-perfil a{
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        transition: all 400ms ease-in-out;
+    }
+    
+    
+    .info-perfil{
+        width: auto;
+        margin: auto 15px;
+        display: flex;
+        flex-direction: column;
+        color: white;
+        font-family: 'Libre Baskerville', serif;
+    }
+    
+    .info-perfil h3, h4{
+       display: none;
+    }
+    
+    .info-perfil h5 a{
+        font-size: 16px;
+        text-decoration: none;
+        color: white;
+        transition: all 400ms ease-in-out;
+    }
+    
+    .logo-escola img{
+        width: 230px;
+        height: 80px;
+        margin-top: 10px;
+    }
+    
+    select{
+        background-color: #182f38e1;
+        color: white;
+        width: 50%;
+        height: 28px;
+        display: block;
+    }
+
+    option{
+        font-size: 10px;
+    }
+    
+    /* _______________________________________ SECTION  _______________________________________ */
+    
+    
+    #home{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    
+    /* _______________________________________ MENU LATERAL _______________________________________ */
+    
+    .menu-lateral{
+        display: none;
+    }
+
+    .links-menu{
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    /* _______________________________________ CONTAINER AVISOS _______________________________________ */
+    
+    .container-avisos{
+        width: 100%;
+        height: 100vh;
+        background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/imagens/SVG/svg-img.svg);
+        background-position: center center;
+        background-size: cover;
+        background-position-y: 0px;
+        background-repeat: no-repeat;
+    }
+    
+    .container-avisos h3{
+        font-size: 35px;
+        font-family: 'Libre Baskerville', serif;
+        font-weight: bold;
+        text-align: center;
+        margin: 20px;
+        filter: drop-shadow(2px 2px 2px #FFAB1B);
+        background-color: black;
+        color: #FFAB1B;
+        border-radius: 35px;
+    }
+    
+    .text-aviso, #BoxAviso{
+        width: 90%;
+        height: auto;
+        margin: 10px auto;
+        border-radius: 10px;
+        background-color: #ffffffb2;
+        box-shadow: 2px 2px 2px rgb(66, 66, 66);
+    }
+    
+    #pAvisos1, #pAvisos2, #pAvisos3, #pAvisos4, #pAvisos5, #pAvisos6{
+        margin: 15px;
+        font-family: 'Libre Baskerville', serif;
+        font-size: 16px;
+    }
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+@media (min-width: 800px) and (max-width: 2000px){
+
+    /* _______________________________________ HEADER _______________________________________ */
+
+header{
+    width: 100%;
+    height: 152px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.perfil{
+    display: flex;
+}
+
+.perfil i{
+    font-size: 80px;
+    color: rgb(155, 155, 155);
+    margin: 5px;
+}
+
+.icon-perfil{
+    text-align: center;
+}
+
+.icon-perfil a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 400ms ease-in-out;
+}
+
+.icon-perfil a:hover{
+    color: #ffab1b;
+}
+
+.info-perfil{
+    width: auto;
+    margin: auto 15px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.info-perfil h3{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.info-perfil h4{
+    font-size: 20px;
+}
+
+.info-perfil h5 a{
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    transition: all 400ms ease-in-out;
+}
+
+.info-perfil h5 a:hover{
+    color: #ffab1b;
+}
+
+.logo-escola{
+    width: auto;
+    height: auto;
+}
+
+select{
+    background-color: #182f38e1;
+    color: white;
+    width: 250px;
+    height: 28px;
+    display: block;
+}
+
+/* _______________________________________ SECTION  _______________________________________ */
+
+
+#home{
+    display: flex;
+    width: 100%;
+}
+
+
+/* _______________________________________ MENU LATERAL _______________________________________ */
+
+.links-menu{
+    width: 250px;
+    height: 474px;
+    background-color: #182F38;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-lateral{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.links-icons i{
+    font-size: 30px;
+    color: #ffab1b;
+}
+
+.links-icons a{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Noto Serif', serif;
+    color: #ffab1b;
+    transition: all 300ms ease-in;
+}
+
+.links-icons a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+#linkDois{
+    display: none;
+}
+
+/* _______________________________________ CONTAINER NOTAS _______________________________________ */
+
+.container-avisos{
+    width: 100%;
+    height: 474px;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/imagens/SVG/svg-img.svg);
+    background-position: center center;
+    background-size: cover;
+    background-position-y: 0px;
+    background-repeat: no-repeat;
+}
+
+.container-avisos h3{
+    font-size: 35px;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px;
+    filter: drop-shadow(2px 2px 2px #FFAB1B);
+    background-color: black;
+    color: #FFAB1B;
+    border-radius: 35px;
+}
+
+.text-aviso, #BoxAviso{
+    width: 90%;
+    height: auto;
+    margin: 10px auto;
+    border-radius: 10px;
+    background-color: #ffffffb2;
+    box-shadow: 2px 2px 2px rgb(66, 66, 66);
+}
+
+#pAvisos1, #pAvisos2, #pAvisos3, #pAvisos4, #pAvisos5, #pAvisos6{
+    margin: 15px;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 16px;
+}
+
+}
+
+
+

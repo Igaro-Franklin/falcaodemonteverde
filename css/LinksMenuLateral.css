@@ -1,0 +1,109 @@
+/* Calendario */
+
+.imagem-calendario{
+    width: 100%;
+    display: flex;
+}
+
+.imagem-calendario img {
+    width: 96%;
+    margin: 20px auto;
+    box-shadow: 5px 5px 30px black;
+}
+
+
+/* Trabalhos Bimestrais */
+
+.card-trab{
+    display: flex;
+    width: 100%;
+}
+
+.text{
+    width: 100%;
+    height: 30px;
+    margin: 30px;
+    padding: 0 20px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px black;
+    background-color: rgb(116, 116, 116);
+}
+
+
+/* Enviar Trabalho */
+
+.form-trabalho{
+    width: 100%;
+    display: flex;
+}
+
+.card-form{
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+}
+
+.card-form label{
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 5px 0 2px 3px;
+}
+
+.card-form input {
+    width: 90%;
+    margin:  0 auto;
+    border-radius: 10px;
+    padding:  0 10px;
+}
+
+textarea{
+    background-color: #182f385e;
+    padding: 10px;
+}
+
+.card-form button{
+    width: 100px;
+    height: 30px;
+    margin: 0 auto;
+    background-color: green;
+    border: none;
+    border-radius: 10px;
+    
+}
+
+
+/* Boletim */
+
+.body-boletim{
+    width: 100%;
+    height: auto;
+    background-color: #182f385e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-boletin{
+    width: 40%;
+    text-align: center;
+    background-color: #FFAB1B;
+    border-radius: 10px;
+    margin: 10px 0;
+    font-family: 'Noto Serif', serif;
+}
+
+.materia-table table{
+    border: 1px solid black;
+    
+}
+
+.materia-table th{
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.materia-table tr{
+    padding: 5px;
+}

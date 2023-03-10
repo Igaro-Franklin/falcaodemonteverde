@@ -1,0 +1,107 @@
+/* Editar perfil */
+
+.container-perfil{
+    width: 100%;
+    height: auto;
+    background-color: #FFAB1B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: 'Noto Serif', serif;
+}
+
+.edit-perfil i{
+    font-size: 90px;
+}
+
+.edit-perfil input{
+    font-size: 12px;
+}
+
+.info-perfil{
+    width: 300px;
+    margin: 30px;
+}
+
+.info-perfil label{
+    color: black;
+}
+
+.info-perfil input{
+    margin: 5px;
+    border: none;
+    border-radius: 15px;
+    padding: 0 15px;
+}
+
+.btn-perfil{
+    border: none;
+    width: 200px;
+    height: 30px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px black;
+    transition: 600ms;
+}
+
+.btn-perfil:hover{
+    background-color: #FFAB1B;
+}
+
+/* Esquici a senha */
+
+#Esqueci-senha{
+    width: 350px;
+    height: auto;
+    margin: 100px auto;
+    font-family: 'Noto Serif', serif;
+}
+
+#Esqueci-senha img{
+    width: 350px;
+}
+
+#Esqueci-senha p{
+    
+    padding: 10px;
+    border-radius: 15px;
+}
+
+
+
+/* Cadastro */
+
+#Aluno-novo{
+    width: 350px;
+    height: auto;
+    margin: 100px auto;
+    font-family: 'Noto Serif', serif;
+}
+
+#Aluno-novo img{
+    width: 350px;
+}
+
+.formulario-novo-aluno{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.formulario-novo-aluno label{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.formulario-novo-aluno input{
+    height: 30px;
+    margin: 0 5px;
+    padding: 0 10px;
+    border: none;
+    background-color: #182f3880;
+    border-radius: 10px;
+}
+
+.btn-cad{
+    margin: 10px 0;
+}

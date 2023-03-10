@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/forms-style.css">
+    <title>FMV - Esqueci a senha</title>
+</head>
+<body>
+    <section id="Aluno-novo">
+        <img src="/imagens/PNG/Logotipo.png" alt="Logo">
+        <form class="formulario-novo-aluno">
+            <h3>Preencha os campos abaixo para finalizar sua matricula</h3>
+
+            <label>Nome Completo:</label>
+            <input type="text" placeholder="Nome">
+
+            <label>Data de nascimento:</label>
+            <input type="date">
+
+            <label>Email Escolar (Feito na secretaria da escola):</label>
+            <input type="email" placeholder="email@falcaomv.com.br">
+
+            <label>Ano de escolaridade:</label>
+            <input type="text">
+
+            <label>Nome do Pai:</label>
+            <input type="text">
+
+            <label>Nome da Mãe:</label>
+            <input type="text">
+
+
+            <input onclick="cadastrar()" type="button" value="Cadastrar" class="btn-cad">
+            <p id="textoCadastrado"></p>
+        </form>
+    </section>
+
+    <script src="/javascript/NovoAluno.js"></script>
+</body>
+</html>

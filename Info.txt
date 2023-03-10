@@ -1,0 +1,22 @@
+Fontes:
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+font-family: 'Libre Baskerville', serif;
+font-family: 'Noto Serif', serif;
+
+_________________________________________________________________
+
+
+Cores:
+
+Verde: #11FF01
+Preto: #0B0D00
+Laran: #FFAB1B
+Cinza: #182F38
+Verme: #FF1100
+
+_________________________________________________________________
+
