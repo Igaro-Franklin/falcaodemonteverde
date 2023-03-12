@@ -16,7 +16,7 @@
         display: flex;
         padding: 0 20px;
         background-color: black;
-        box-shadow: 5px 5px 10px #FFAB1B;
+        box-shadow: 5px 5px 10px black;
         justify-content: space-between;
         border-radius: 30px;
     }
@@ -26,7 +26,7 @@
         font-family: 'Libre Baskerville', serif;
         font-weight: bold;
         text-align: center;
-        color: #FFAB1B;
+        color: #ffffff;
         border-radius: 35px;
     }
     
@@ -50,10 +50,10 @@
     
     .card-sem{
         width: 100%;
-        height: 190px;
+        height: 200px;
         margin:  10px;
         padding: 0 2vh;
-        background-color: #182F38;
+        background-color: black;
         color: white;
         box-shadow: 6px 4px 8px black;
         border-radius: 10px;
@@ -66,11 +66,14 @@
     
     .nota-total{
         height: 25px;
+        padding: 0 5px;
+        border-radius: 5px;
     }
     
     .title-sem{
         display: flex;
         justify-content: space-between;
+        margin-top: 10px;
     }
 
 
@@ -95,6 +98,7 @@
         display: flex;
         padding: 0 20px;
         background-color: rgb(0, 0, 0);
+        box-shadow: 6px 6px 10px black;
         justify-content: space-between;
         border-radius: 30px;
     }
@@ -104,7 +108,7 @@
         font-family: 'Libre Baskerville', serif;
         font-weight: bold;
         text-align: center;
-        color: #FFAB1B;
+        color: white;
         border-radius: 35px;
     }
     
@@ -128,10 +132,10 @@
     
     .card-sem{
         width: 300px;
-        height: 190px;
+        height: 195px;
         margin:  5px auto;
         padding: 0 2vh;
-        background-color: #182F38;
+        background-color: rgb(0, 0, 0);
         color: white;
         box-shadow: 3px 2px 8px black;
     }
@@ -143,11 +147,13 @@
     
     .nota-total{
         height: 25px;
+        padding: 0 5px;border-radius: 5px;
     }
     
     .title-sem{
         display: flex;
         justify-content: space-between;
+        padding-top: 5px;
     }
     
     .title-sem h5{

@@ -65,7 +65,7 @@
     }
     
     select{
-        background-color: #182f38e1;
+        background-color: black;
         color: white;
         width: 50%;
         height: 28px;
@@ -115,9 +115,9 @@
         font-weight: bold;
         text-align: center;
         margin: 20px;
-        filter: drop-shadow(2px 2px 2px #FFAB1B);
+        filter: drop-shadow(5px 5px 12px white);
         background-color: black;
-        color: #FFAB1B;
+        color: white;
         border-radius: 35px;
     }
     
@@ -214,7 +214,7 @@ header{
 }
 
 select{
-    background-color: #182f38e1;
+    background-color: black;
     color: white;
     width: 250px;
     height: 28px;
@@ -235,7 +235,7 @@ select{
 .links-menu{
     width: 250px;
     height: 474px;
-    background-color: #182F38;
+    background-color: rgba(0, 0, 0, 0.97);
     display: flex;
     flex-direction: column;
 }
